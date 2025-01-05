@@ -4,6 +4,9 @@
         "dockerfile": "Dockerfile",
         "context": ".."
     },
+    "features": {
+        "ghcr.io/rapidsai/devcontainers/features/cmake": {}
+    },
     "customizations": {
         "vscode": {
             "extensions": [
