@@ -1,5 +1,5 @@
 {
-    "name": "satanizer",
+    "name": "metaldsp",
     "build": {
         "dockerfile": "Dockerfile",
         "context": ".."
