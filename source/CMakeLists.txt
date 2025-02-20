@@ -39,6 +39,8 @@ target_link_libraries(${PROJECT_NAME}
         juce::juce_recommended_config_flags
         juce::juce_recommended_lto_flags
         juce::juce_recommended_warning_flags
+    PRIVATE
+        juce::juce_audio_utils
 )
 if(TARGET Assets)
     target_link_libraries(${PROJECT_NAME} PRIVATE Assets)
