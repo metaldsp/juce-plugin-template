@@ -2,6 +2,8 @@
 
 This is based on [WolfSound's Audio Plugin Template](https://github.com/JanWilczek/audio-plugin-template)
 
+Icon is from [pamplejuce](https://github.com/sudara/pamplejuce/)
+
 Want to create an audio plugin (e.g., a VST3 plugin) with C++ but don't know how to go about?
 
 Heard about the [JUCE C++ framework](https://github.com/juce-framework/JUCE) but not sure how to start a JUCE project?
