@@ -1,8 +1,7 @@
-FROM mcr.microsoft.com/vscode/devcontainers/cpp:0-ubuntu-22.04
+FROM mcr.microsoft.com/vscode/devcontainers/cpp:1-ubuntu24.04
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
-    git \
     clang-format \
     build-essential \
     libstdc++-12-dev \
@@ -17,5 +16,4 @@ RUN apt-get update && apt-get install -y \
     libfreetype6-dev \
     libfontconfig1-dev \
     libcurl4-openssl-dev \
-    libgtk-3-dev \
-    libwebkit2gtk-4.0-dev
+    libgtk-3-dev

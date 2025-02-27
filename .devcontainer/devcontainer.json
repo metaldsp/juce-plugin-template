@@ -4,6 +4,7 @@
         "context": ".."
     },
     "features": {
+        "ghcr.io/devcontainers/features/git:1": {},
         "ghcr.io/rapidsai/devcontainers/features/cmake": {}
     },
     "customizations": {
