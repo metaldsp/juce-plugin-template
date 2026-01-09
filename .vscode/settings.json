@@ -1,0 +1,22 @@
+{
+    "C_Cpp.formatting": "clangFormat",
+    "C_Cpp.clang_format_style": "file",
+    "C_Cpp.clang_format_fallbackStyle": "Visual Studio",
+    "C_Cpp.autoAddFileAssociations": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "files.problemExclude": {
+        "**/build/*": true,
+        "**/libs/*": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/build": true,
+        "**/libs": true
+    }
+}
