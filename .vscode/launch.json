@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Audio Plugin Standalone (macOS)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/source/AudioPlugin_artefacts/Debug/Standalone/Audio Plugin.app/Contents/MacOS/Audio Plugin",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "MIMode": "lldb"
+        },
+        {
+            "name": "Audio Plugin Standalone (Windows)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/source/AudioPlugin_artefacts/Debug/Standalone/Audio Plugin.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "MIMode": "gdb"
+        },
+        {
+            "name": "Audio Plugin Standalone (Linux)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/source/AudioPlugin_artefacts/Debug/Standalone/Audio Plugin",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "MIMode": "gdb"
+        }
+    ]
+}

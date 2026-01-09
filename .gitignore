@@ -1,0 +1,37 @@
+# Build and dependency directories
+libs/
+build/
+xcode-build/
+release-build/
+out/
+vs-build/
+
+# Compiled artifacts
+*.a
+*.app
+*.dll
+*.dylib
+*.exe
+*.lib
+*.o
+*.obj
+*.so
+
+# IDE and editor state
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/c_cpp_properties.json
+!.vscode/*.code-snippets
+*.code-workspace
+*.sln.iml
+
+# Local tooling and OS files
+.codex/
+.DS_Store
+.history/
+__pycache__/
+*.pyc
